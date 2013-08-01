@@ -1,7 +1,7 @@
 Rubyfiddle::Application.routes.draw do
   get "welcome/index", as: :wi
   get "say/hello", as: :sh
-  get "say/goodbye", as: :sb
+  get "say/goodbye", as: :sg
 
   root "welcome#index"
   # The priority is based upon order of creation: first created -> highest priority.
