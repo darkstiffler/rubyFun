@@ -1,12 +1,12 @@
 Rubyfiddle::Application.routes.draw do
-  get "say/hello"
-  get "say/goodbye"
+  get "welcome/index", as: :wi
+  get "say/hello", as: :sh
+  get "say/goodbye", as: :sb
+
+  root "welcome#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
