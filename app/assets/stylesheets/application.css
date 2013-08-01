@@ -13,32 +13,24 @@
  */
 
 body {
-
-/*adds the bg image, with a secondary backgound as #000 for overflow
-*/	background-image: url(mountain.jpg);
+background-image: url(mountain.jpg);
 	background-repeat: no-repeat;
 	background-color: black;
 }
 #container {
-/*	container styling
-*/	position: relative;
+	position: relative;
 	top: 100px;
 	width: 600px;
 	height: 500px;
-	color: purple;
+	color: #3AC7BA;
 	background-color: rgba(0,0,0, .8);
+	border-radius: 10px;
 	box-shadow: 10px 10px 30px #000;
 	margin: 0 auto;
-	margin-bottom: 300px;
 	padding: 30px;
 }
-#mainPic {
-	border-radius: 9px;
-	height: 140px;
-	margin-bottom: 5px;
+.mainPic {
+	border-radius: 10px;
+	height: 200px;
 	width: auto;
 }
-
-
-
-
