@@ -14,12 +14,14 @@
 
 body {
 	background-image: url(http://www.designmyprofile.com/images/graphics/backgrounds/background0172.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
 }
 #container {
 	position: relative;
 	top: 100px;
-	width: 400px;
-	height: 300px;
+	width: 600px;
+	height: 500px;
 	color: white;
 	background-color: rgba(0,0,0, .8);
 	box-shadow: 10px 10px 30px #000;
