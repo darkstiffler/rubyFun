@@ -1,9 +1,9 @@
-<h1>Rails says</h1>
-<h2>Goodbye!</h2>
+<%= button_to "Refresh", sg_url, :method => :get %>
+<h1>Rails says:</h1>
 
-<p>oh by the way its  <%= @time %></p>
-<br><br><br>
+<h2>Goodbye world!</h2>
 
-
-
-<%=  button_to "Hello", sh_url, :method => :get %>
+<h3>Ask Rails to say:</h3>
+<%= button_to "Hello", sh_url, :method => :get %>
+<p>or go back to:</p>
+<%= button_to "Home Page", wi_path, :method => :get %>
