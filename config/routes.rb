@@ -1,4 +1,9 @@
 Rubyfiddle::Application.routes.draw do
+  get "site/features"
+  get "site/privacy"
+  get "site/terms"
+  get "site/about_us"
+  get "site/contact_us"
   get "welcome/index", as: :wi
   get "say/hello", as: :sh
   get "say/goodbye", as: :sg
