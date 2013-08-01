@@ -25,9 +25,20 @@ body {
 	top: 100px;
 	width: 600px;
 	height: 500px;
-	color: #3AC7BA;
+	color: purple;
 	background-color: rgba(0,0,0, .8);
 	box-shadow: 10px 10px 30px #000;
 	margin: 0 auto;
+	margin-bottom: 300px;
 	padding: 30px;
 }
+#mainPic {
+	border-radius: 9px;
+	height: 140px;
+	margin-bottom: 5px;
+	width: auto;
+}
+
+
+
+
