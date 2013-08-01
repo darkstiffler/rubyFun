@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(){      //document ready function.
+
+	$('#container').css({display : 'hidden'}).fadeIn(4000);
+
+	console.log('Status: Loaded');   // logged load success.
+});
