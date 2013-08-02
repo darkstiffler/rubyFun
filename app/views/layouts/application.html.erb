@@ -10,16 +10,16 @@
 
 	<body>
 	<%= favicon_link_tag 'favicon.ico' %>
-		<div id="container">
-			<%= button_to "Refesh", wi_url, :method => :get %>
-			
+		<div id="container">			
 			<h2 class="greenPad">This tiny rails app! Enjoy</h2>
 			
 			<%= yield %>
 			<!-- yield is where the content from the specific views comes into play. -->
 		</div>
 		<div id="footer">
-			<p>&copy; 20013. All rights reserved.       Programmed by Ethan G Stiffelman</p>	
+			<p>&copy; 20013. All rights reserved.       Programmed by Ethan G Stiffelman
+			<br>
+			<%= $time %></p>	
 		</div>
 	</body>
 </html>
