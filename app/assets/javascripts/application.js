@@ -11,8 +11,7 @@
 
 $(document).ready(function(){ 
 	// waits until doc is prepared clientsite.
-	console.log('Page Loaded! Ready to rock!');   
-		// logs doc is prepared.
+	console.log("Application.js :Loaded:")
 
 	$('#container').css({ display : 'none' });
 	$('#container').fadeIn(1000);

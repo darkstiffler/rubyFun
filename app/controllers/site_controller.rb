@@ -15,4 +15,7 @@ class SiteController < ApplicationController
   def contact_us
   end
 
+  def rules
+  end
+
 end
