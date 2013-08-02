@@ -1,4 +1,8 @@
 Rubyfiddle::Application.routes.draw do
+  get "dummy/dummyroute1"
+  get "dummy/dummyroute2"
+  get "dummy/dummyroute3"
+  get "dummy/dummyroute4"
   get "site/features"
   get "site/privacy"
   get "site/terms"
