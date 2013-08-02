@@ -1,4 +1,0 @@
-rubyfiddle
-==========
-
-little ruby app

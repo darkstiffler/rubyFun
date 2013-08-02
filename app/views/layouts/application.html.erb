@@ -16,10 +16,10 @@
 			<%= button_to "Refesh", wi_url, :method => :get %>
 			<div class="wrap">
 				<img class="mainPic" src="http://blogs.smithsonianmag.com/aroundthemall/files/2009/01/npg_portraits_nicholson_jack_2002.jpg" />
-				<text>i am the creator, the everything.</text>
 			</div>
 			<%= yield %>
 			<!-- yield is where the content from the specific views comes into play. -->
-		</div>
+			<text class="br">The current date, and precise time is => <%= $time %>.</text>
+		</div>	
 </body>
 </html>

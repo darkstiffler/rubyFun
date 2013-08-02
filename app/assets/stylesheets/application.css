@@ -41,8 +41,9 @@ background-image: url(mountain.jpg);
 	width: auto;
 }
 
-.ar {
-	position: absolute;
-	right: 2px;
+.br {
+	color: blue;
+	position: relative;
+	left: 165px;
 	bottom: -3px;
 }

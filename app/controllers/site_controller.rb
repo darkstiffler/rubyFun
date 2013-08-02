@@ -1,4 +1,5 @@
 class SiteController < ApplicationController
+
   def features
   end
 
@@ -13,4 +14,5 @@ class SiteController < ApplicationController
 
   def contact_us
   end
+
 end
