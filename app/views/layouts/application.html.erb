@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <%= favicon_link_tag 'favicon.ico' %>
-  <title>Rubyfiddle</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
+	<head>
+	  <%= favicon_link_tag 'favicon.ico' %>
+	  <title>EGSD</title>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	  <%= csrf_meta_tags %>
+	</head>
 
-
-
-<body>
-<%= favicon_link_tag 'favicon.ico' %>
-	<div id="container">
-		
-		<%= button_to "Refesh", wi_url, :method => :get %>   <!-- main refresh button  -->
-
-		<img id="mainPic" src="http://blogs.smithsonianmag.com/aroundthemall/files/2009/01/npg_portraits_nicholson_jack_2002.jpg" />
-		<%= yield %>
-		<!-- yield is where the content from the specific views and controllers  come into play. -->
-	
-	</div>
-</body>
+	<body>
+	<%= favicon_link_tag 'favicon.ico' %>
+		<div id="container">
+			<%= button_to "Refesh", wi_url, :method => :get %>
+			
+			<h2 class="greenPad">This tiny rails app! Enjoy</h2>
+			
+			<%= yield %>
+			<!-- yield is where the content from the specific views comes into play. -->
+		</div>
+		<div id="footer">
+			<p>&copy; 20013. All rights reserved.       Programmed by Ethan G Stiffelman</p>	
+		</div>
+	</body>
 </html>
