@@ -23,7 +23,7 @@ background-image: url(mountain.jpg);
 	border-radius: 10px;
 	box-shadow: 10px 10px 30px #000;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 90px;
 	padding: 30px;
 }
 
@@ -34,6 +34,7 @@ background-image: url(mountain.jpg);
 	border-radius: 10px;
 	background-color: #3AC7BA;
 }
+
 .mainPic {
 
 	border-radius: 10px;
@@ -41,9 +42,14 @@ background-image: url(mountain.jpg);
 	width: auto;
 }
 
-.br {
-	color: blue;
+.timeStamp {
+	color: #3AC7BA;
 	position: relative;
 	left: 165px;
 	bottom: -3px;
 }
+
+
+
+
+
