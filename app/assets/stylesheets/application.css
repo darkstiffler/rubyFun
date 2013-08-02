@@ -1,55 +1,21 @@
-/*
-
- *= require_self
- *= require_tree .
-
- */
-
-body {                                   /*main styling for backgrounds*/
-
-background-image: url(mountain.jpg);
+#timeStamp {
+	position: relative;
+	bottom: -5px;
+	right: 5px;
+	color: green;
+}
+body {
+	color: green;
+	background-image: url(mountain.jpg);
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #000;
 }
-
-#container {      						/*container styling*/
-
-	position: relative;
-	top: 100px;
-	width: 600px;
-	height: 500px;
-	color: #3AC7BA;
-	background-color: rgba(0,0,0, .8);
-	border-radius: 10px;
-	box-shadow: 10px 10px 30px #000;
+#container {
+	padding: 50px;
+	height: 400px;
+	width: 400px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 15px;
 	margin: 0 auto;
-	margin-bottom: 90px;
-	padding: 30px;
 }
-
-.wrap {
-	color: #000;
-	height: 200px;
-	width: 500px;
-	border-radius: 10px;
-	background-color: #3AC7BA;
-}
-
-.mainPic {
-
-	border-radius: 10px;
-	height: 200px;
-	width: auto;
-}
-
-.timeStamp {
-	color: #3AC7BA;
-	position: relative;
-	left: 165px;
-	bottom: -3px;
-}
-
-
-
-
 
