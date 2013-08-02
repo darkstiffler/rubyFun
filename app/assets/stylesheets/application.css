@@ -21,8 +21,8 @@ body {
 	background-color: #000;
 }
 #container {
-	padding: 50px;
-	height: 400px;
+	padding: 35px;
+	height: auto;
 	width: 400px;
 	background-color: rgba(0,0,0,0.7);
 	border-radius: 15px;

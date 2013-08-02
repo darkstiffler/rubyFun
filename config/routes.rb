@@ -1,13 +1,13 @@
 Rubyfiddle::Application.routes.draw do
-  get "dummy/dummyroute1"
-  get "dummy/dummyroute2"
-  get "dummy/dummyroute3"
-  get "dummy/dummyroute4"
-  get "site/features"
-  get "site/privacy"
-  get "site/terms"
-  get "site/about_us"
-  get "site/contact_us"
+  get "dummy/dummyroute1", as: :dr1
+  get "dummy/dummyroute2", as: :dr2
+  get "dummy/dummyroute3", as: :dr3
+  get "dummy/dummyroute4", as: :dr4
+  get "site/features", as: :sf
+  get "site/privacy", as: :sp
+  get "site/terms", as: :st
+  get "site/about_us", as: :sau
+  get "site/contact_us", as: :cu
   get "welcome/index", as: :wi
   get "say/hello", as: :sh
   get "say/goodbye", as: :sg
