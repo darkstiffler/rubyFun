@@ -1,4 +1,5 @@
 Rubyfiddle::Application.routes.draw do
+  get "color_changer/index", as: :cc
   get "dummy/dummyroute1", as: :dr1
   get "dummy/dummyroute2", as: :dr2
   get "dummy/dummyroute3", as: :dr3
