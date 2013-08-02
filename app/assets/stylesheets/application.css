@@ -1,10 +1,8 @@
-a {
+a, a:visited {
+	font-size: 30px;
 	color: green;
 }
-a:visited {
-	color: green;
-}
-.bluePad {
+.greenPad {
 	text-align: center;
 	border-radius: 5px;
 	background-color: lightgreen;
