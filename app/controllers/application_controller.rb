@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery with: :exception
   
-  $time = Time.now
+  $t = Time.now.asctime
 
 
 end

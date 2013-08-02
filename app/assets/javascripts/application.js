@@ -1,7 +1,7 @@
 // **** All contens are on the line directly below the code.*****//
 
 
-// Requires the following >>
+// Requires the following files and branches >>
 
 //= require jquery
 //= require jquery_ujs
@@ -15,8 +15,7 @@ $(document).ready(function(){
 
 	$('#container').css({ display : 'none' });
 	$('#container').fadeIn(1000);
-		//the above => fades in the id="container" within the app.css
-	
+
 });
 
 
