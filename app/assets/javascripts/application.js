@@ -15,7 +15,7 @@ $(document).ready(function(){
 		// logs doc is prepared.
 
 	$('#container').css({ display : 'none' });
-	$('#container').fadeIn(900);
+	$('#container').fadeIn(2000);
 		//the above => fades in the id="container" within the app.css
 
 	

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <%= favicon_link_tag 'favicon.ico' %>
-  <title>Rubyfiddle</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
+	<head>
+	  <%= favicon_link_tag 'favicon.ico' %>
+	  <title>Rubyfiddle</title>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	  <%= csrf_meta_tags %>
+	</head>
 
 
 
-<body>
-<%= favicon_link_tag 'favicon.ico' %>
+	<body>
+	<%= favicon_link_tag 'favicon.ico' %>
 		<div id="container">
 			<%= button_to "Refesh", wi_url, :method => :get %>
 			
+			<h2 class="bluePad">This tiny rails app! Enjoy</h2>
+			
 			<%= yield %>
 			<!-- yield is where the content from the specific views comes into play. -->
-			
-			<text id="timeStamp">The current date, and precise time is => <%= $time %>.</text>
+		
 		</div>
-</body>
+	</body>
 </html>
