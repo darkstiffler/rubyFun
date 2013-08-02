@@ -27,7 +27,7 @@ background-image: url(mountain.jpg);
 	padding: 30px;
 }
 
-.mainPic {
+#mainPic {
 
 	border-radius: 10px;
 	height: 200px;
