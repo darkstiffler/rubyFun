@@ -1,4 +1,5 @@
 Rubyfiddle::Application.routes.draw do
+  
   get "color_changer/index", as: :cc
   get "dummy/dummyroute1", as: :dr1
   get "dummy/dummyroute2", as: :dr2
@@ -14,6 +15,13 @@ Rubyfiddle::Application.routes.draw do
   get "say/goodbye", as: :sg
 
   root "welcome#index"
+  
+
+
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   

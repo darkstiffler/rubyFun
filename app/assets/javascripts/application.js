@@ -11,7 +11,7 @@
 
 $(document).ready(function(){ 
 	// waits until doc is prepared clientsite.
-	console.log('jquery_loaded: true');   
+	console.log('Page Loaded! Ready to rock!');   
 		// logs doc is prepared.
 
 	$('#container').css({ display : 'none' });
