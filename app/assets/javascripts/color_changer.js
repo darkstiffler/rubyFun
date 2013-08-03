@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log('locked and loaded, ready to rock.');
+	console.log('Color_Changer.js :Loaded:');
 	
 	$('.red').click(function(){
 	$('#container').css("background-color", "red");

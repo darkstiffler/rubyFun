@@ -1,7 +1,7 @@
 // **** All contens are on the line directly below the code.*****//
 
 
-// Requires the following >>
+// Requires the following files and branches >>
 
 //= require jquery
 //= require jquery_ujs
@@ -11,13 +11,11 @@
 
 $(document).ready(function(){ 
 	// waits until doc is prepared clientsite.
-	console.log('Page Loaded! Ready to rock!');   
-		// logs doc is prepared.
+	console.log("Application.js :Loaded:")
 
 	$('#container').css({ display : 'none' });
 	$('#container').fadeIn(1000);
-		//the above => fades in the id="container" within the app.css
-	
+
 });
 
 

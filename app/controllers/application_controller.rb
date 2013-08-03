@@ -1,9 +1,8 @@
 class ApplicationController < ActionController::Base
 
   protect_from_forgery with: :exception
+  
+  $t = Time.now.asctime
 
-  $time = Time.now
-  # sets global $time variable within the app
 
 end
-
