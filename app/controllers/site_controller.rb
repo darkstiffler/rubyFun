@@ -9,6 +9,9 @@ class SiteController < ApplicationController
   def terms
   end
 
+  def sarah
+  end
+  
   def about_us
   end
 
