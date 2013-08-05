@@ -18,7 +18,7 @@ Rubyfiddle::Application.routes.draw do
   get "privacy" => "site#privacy", as: :sp
   get "terms" => "site#terms", as: :st
   get "rules" => "site#rules"
-  get "about_us" => "site#about_us", as: :sau
+  get "aboutus" => "site#about_us", as: :sau
   get "sarah" => "site#sarah", as: :ss
   get "contact_us" => "site#contact_us", as: :cu
   get "welcome" => "welcome#index", as: :wi
