@@ -16,6 +16,13 @@ class TwitterController < ApplicationController
 		# 	:site => ''
 		# 	:scheme => :header
 		# })
+		request_wrapper = OAuth::AccessToken.from_hash(consumer,
+			oauth_token: access_token,
+			oauth_token_secret: access_token_secret
+		)
+		
+		response = request_wrapper.request(:get,url)
+		data = JSON.parse(response.body)
 
 	end
 
