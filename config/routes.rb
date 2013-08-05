@@ -12,6 +12,7 @@ Rubyfiddle::Application.routes.draw do
   get "r2" => "dummy#dummyroute2", as: :dr2
   get "r3" => "dummy#dummyroute3", as: :dr3
   get "r4" => "dummy#dummyroute4", as: :dr4
+  get "r5" => "twitter#search", as: :ts
 
   # bypass controller in views for url
   get "features" => "site#features", as: :sf
