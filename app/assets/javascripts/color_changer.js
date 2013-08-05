@@ -2,6 +2,7 @@ $(document).ready(function(){
 	console.log('Color_Changer.js :Loaded:');
 
 	// the following changes the colors upon clicking the related button
+	//find out how to refactor this code with a loop Ethan <00
 	
 	// turns the box red
 	$('.red').click(function(){
