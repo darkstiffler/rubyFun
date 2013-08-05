@@ -4,3 +4,7 @@ class ColorChangerController < ApplicationController
   end
 
 end
+
+
+
+# Xx new insertion test
