@@ -12,6 +12,7 @@
 $(document).ready(function(){ 
 	// waits until doc is prepared clientsite.
 	console.log("Application.js :Loaded:")
+	console.log("Application :Loaded:")
 
 	$('#container').css({ display : 'none' });
 	$('#container').fadeIn(1000);
